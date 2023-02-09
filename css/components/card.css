@@ -1,0 +1,63 @@
+.card-category {
+    height: 200px;
+    width: 320px;
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.35);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg');
+}
+
+.card-category h1 {
+    color: white;
+}
+
+.card-product {
+    display: flex;
+    height: 180px;
+    background-color: white;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.35);
+    align-items: center;
+    width: 500px;
+}
+
+.card-product > img {
+    height: 180px;
+}
+
+.card-product-info {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 0px 20px;
+    width: 100%;
+}
+
+.card-product-info h2 {
+    margin: 0px;
+}
+
+.card-trip {
+    background-color: white;
+    /* height: 400px; */
+    margin-top: 2em;
+    margin-bottom: 2em;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.35);
+}
+
+.card-trip-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.card-trip > img {
+    width: 100%;
+}
+
+.trip-title > h2, p {
+    margin: 5px 0px;
+}
